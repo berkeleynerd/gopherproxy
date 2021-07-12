@@ -8,10 +8,10 @@ RUN \
     apk add --update git && \
     rm -rf /var/cache/apk/*
 
-RUN mkdir -p /go/src/github.com/prologic/gopherproxy
-WORKDIR /go/src/github.com/prologic/gopherproxy
+RUN mkdir -p /go/src/git.mills.io/prologic/gopherproxy
+WORKDIR /go/src/git.mills.io/prologic/gopherproxy
 
-COPY . /go/src/github.com/prologic/gopherproxy
+COPY . /go/src/git.mills.io/prologic/gopherproxy
 
 RUN go get -v -d
-RUN go install -v github.com/prologic/gopherproxy/...
+RUN go install -v git.mills.io/prologic/gopherproxy/...
