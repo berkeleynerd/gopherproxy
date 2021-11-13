@@ -4,7 +4,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/prologic/gopherproxy"
+	"github.com/berkeleynerd/gopherproxy"
 )
 
 var (

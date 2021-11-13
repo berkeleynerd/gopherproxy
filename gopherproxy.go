@@ -12,7 +12,7 @@ import (
 
 	"github.com/temoto/robotstxt"
 
-	"git.mills.io/prologic/go-gopher"
+	"github.com/berkeleynerd/go-gopher"
 )
 
 type Item struct {
