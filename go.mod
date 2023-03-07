@@ -9,4 +9,4 @@ require (
 	github.com/temoto/robotstxt v1.1.2
 )
 
-require golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2 // indirect
+require golang.org/x/net v0.7.0 // indirect
